@@ -2,15 +2,25 @@
 
 # OBJETIVOS 
 
-O objetivo deste relatório é apresentar os resultados financeiros por meio dos principais indicadores, com base nos requisitos a seguir::
+O objetivo deste relatório é apresentar os resultados financeiros por meio dos principais indicadores, com base nos requisitos a seguir:
 
 1 - Valor Orçado, Despesas, Desvio Real - Consolidado, Por Mês, Por Conta, Por Centro de Custo;
 
-2 - Implementar medidas dinâmicas que ajustem automaticamente os valores orçados com base em taxas de câmbio ou ajustes de orçamento que possam ocorrer ao longo do ano. Use DAX para criar uma lógica condicional que considere essas variações;
+1.1 - Implementar medidas dinâmicas que ajustem automaticamente os valores orçados com base em taxas de câmbio ou ajustes de orçamento que possam ocorrer ao longo do ano. Use DAX para criar uma lógica condicional que considere essas variações;
 
-3 - Criar uma análise de tendência temporal que compare o valor realizado contra o valor orçado, incluindo a projeção para os próximos meses baseada no desempenho atual;
+1.2 - Criar uma análise de tendência temporal que compare o valor realizado contra o valor orçado, incluindo a projeção para os próximos meses baseada no desempenho atual;
 
-4 - Desenvolva um indicador de "alerta" que sinaliza desvios significativos do orçado que excedam um limite pré- definido. O indicador deve ser visualmente distinto e acionável, permitindo aos usuários investigar a causa dos desvios rapidamente.
+1.3 - Desenvolva um indicador de "alerta" que sinaliza desvios significativos do orçado que excedam um limite pré- definido. O indicador deve ser visualmente distinto e acionável, permitindo aos usuários investigar a causa dos desvios rapidamente;
+
+2 - Variação entre meses em p.p sobre o desvio;
+
+2.1 - Desenvolver um modelo de pontuação que classifique as contas com base no impacto de seus desvios no desempenho geral. Integre uma visualização que mapeie contas ofensoras em um "mapa de calor" baseado na pontuação de impacto;
+
+3 - Realizado x Orçado do centro de custo TIME MIS;
+
+3.1 - Criar um gráfico dinâmico que permita a seleção de múltiplos centros de custo para comparação simultânea. Implemente funcionalidades de drill-down que permitam analisar o desempenho mensal detalhado de cada centro de custo selecionado;
+
+4 - Mostre o resultado do indicador para o centro de custo TIME MIS no mês de Janeiro - CONTA: 260001.
 
 # VISUAIS
 
@@ -36,7 +46,7 @@ Na terceira visualização, o objetivo é analisar o desempenho das contas, tant
 
 ## Time MIS
 
-Na quarta visualização, o objetivo é possibilitar a análise do desempenho do centro de custo da equipe MIS e seus correspondentes, além de permitir a avaliação das contas em períodos de tempo desejados.
+Na quarta visualização, o objetivo é possibilitar a análise do desempenho do centro de custo da equipe MIS e seus correspondentes, além de permitir a avaliação das contas em períodos de tempo desejados. Nesse visual, também é possível observar o desempenho da conta 260001 como solicitado no objetivo 4.
 
 ![Prova - Especialista de BI-6](https://github.com/user-attachments/assets/8af74b31-6877-456b-a44c-2b60f8e42e38)
 
